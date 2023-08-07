@@ -1,6 +1,6 @@
 header {
   text-align: center;
-  background-color: #EEE;
+  background-color: #eee;
   margin-bottom: 20px;
   padding: 10px;
 }
@@ -16,4 +16,14 @@ a {
 .active {
   color: #666;
   text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button {
+  margin-left: 1rem;
 }
