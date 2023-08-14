@@ -5,18 +5,11 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { CoreModule } from './core/core.module';
-import { FaceSnapsModule } from './face-snaps/face-snaps.module';
 import { LandingPageModule } from './landing-page/landing-page.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    CoreModule,
-    FaceSnapsModule,
-    LandingPageModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule, CoreModule, LandingPageModule],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
